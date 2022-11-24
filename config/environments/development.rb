@@ -73,7 +73,13 @@ Rails.application.configure do
 
   # Allow connections to local server.
   config.hosts.clear
-
+  
+  config.action_mailer.raise_delivery_errors = false
+  
+  host = "https://6594e60257ff4c2a99706667b09b8693.vfs.cloud9.us-east-1.amazonaws.com/"
+  
+  config.action_mailer.default_url_options = { host: host, protocol: 'https'}
+  
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end
