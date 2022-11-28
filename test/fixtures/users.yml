@@ -12,7 +12,21 @@ angely:
   password_digest: <%= User.digest('123456') %>
   activated: true
   activated_at: <%= Time.zone.now %>
-  
+ 
+marisol:
+ name: Maria
+ email: marisolortega@hotmail.com
+ password_digest: <%= User.digest('123456') %>
+ activated: true
+ activated_at: <%= Time.zone.now %>
+ 
+monica:
+ name: Monica
+ email: monicapabon@gmail.com
+ password_digest: <%= User.digest('123456') %>
+ activated: true
+ activated_at: <%= Time.zone.now %>
+ 
 nonactive:
   name: NotActive
   email: nonactiveaccount@gmail.com
