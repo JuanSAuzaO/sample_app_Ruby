@@ -1,0 +1,12 @@
+one:
+ follower: sebastian
+ followed: monica
+two:
+ follower: sebastian
+ followed: marisol
+three:
+ follower: monica
+ followed: sebastian
+four:
+ follower: marisol
+ followed: sebastian
